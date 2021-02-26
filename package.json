@@ -18,7 +18,7 @@
   "dependencies": {},
   "devDependencies": {
     "del": "2.2.1",
-    "gulp": "3.9.1",
+    "gulp": "^3.9.1",
     "gulp-json-transform": "0.4.5",
     "gulp-rename": "1.2.2",
     "gulp-replace": "0.5.4",
@@ -26,8 +26,8 @@
     "gulp-sourcemaps": "1.6.0",
     "gulp-util": "3.0.7",
     "gulp-zip": "3.2.0",
-    "yargs": "6.4.0",
-    "natives": "^1.1.6"
+    "natives": "^1.1.6",
+    "yargs": "^16.2.0"
   },
   "repository": {
     "type": "git",

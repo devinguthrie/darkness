@@ -566,6 +566,18 @@ var CONFIG = {
 			name: 'Google Script',
 			support: 'ask-developers',
 			hostRegExp: new RegExp('script\.google\.com$', 'i')
+		},
+		'Axios': {
+			key: 'axios', // Must be the same as the object key
+			name: 'Axios',
+			support: 'full',
+			hostRegExp: new RegExp('^www\.axios\.com$', 'i')
+		},
+		'thehill': {
+			key: 'thehill', // Must be the same as the object key
+			name: 'The Hill',
+			support: 'full',
+			hostRegExp: new RegExp('^thehill\.com$', 'i')
 		}
 	}
 };
